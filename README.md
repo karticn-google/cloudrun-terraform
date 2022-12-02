@@ -1,5 +1,10 @@
 # Terraform for cloudrun
 
+## prerequisites for deploying this config
+
+- Make sure that you have correct permissions in the GCP project to deploy the config 
+- Use an existing service account in your GCP project which contains proper roles and permissions for cloud run or create a new service account. Cloud run IAM requirements can be found here https://cloud.google.com/run/docs/reference/iam/roles
+
 ## List of Terraform Variables  
 
 - project_id (**required**)
@@ -8,7 +13,7 @@
 - region (**optional** - default set to ***us-central1***)
 - service account (**required**)
 
-> ***This terraform config requires a service account name to be passed as input. Please make sure to use an existing service account or create a new service account before deploying this config***
+> Note : ***This terraform config requires a service account name to be passed as input. Please make sure to use an existing service account or create a new service account before deploying this config***
 
 ## Sample terraform commands for deployment
 

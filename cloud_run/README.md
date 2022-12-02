@@ -14,6 +14,6 @@
 
 > `terraform plan -var="project_id=sampleprojectid" -var="image_path=sampleimagepath"-var="cloudrun_service_name=samplecloudrunservice -var="region=us-east1" -var="service_account=sampleserviceaccountname"`
 
-> `terraform apply -var="project_id=sampleprojectid" -var="image_path=sampleimagepath"-var="cloudrun_service_name=samplecloudrunservice -var="region=us-east1" -var="service_account=sampleserviceaccountname" -auto-approve`
+> `terraform apply -var="project_id=sampleprojectid" -var="image_path=sampleimagepath" -var="cloudrun_service_name=samplecloudrunservice -var="region=us-east1" -var="service_account=sampleserviceaccountname" -auto-approve`
 
-> `terraform destroy -var="project_id=sampleprojectid" -var="image_path=sampleimagepath"-var="cloudrun_service_name=samplecloudrunservice -var="region=us-east1" -var="service_account=sampleserviceaccountname" -auto-approve`
+> `terraform destroy -var="project_id=sampleprojectid" -var="image_path=sampleimagepath" -var="cloudrun_service_name=samplecloudrunservice -var="region=us-east1" -var="service_account=sampleserviceaccountname" -auto-approve`
